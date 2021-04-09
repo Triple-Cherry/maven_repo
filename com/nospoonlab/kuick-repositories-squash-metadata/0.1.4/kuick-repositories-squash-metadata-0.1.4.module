@@ -1,0 +1,45 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../kuick-repositories-squash/0.1.4/kuick-repositories-squash-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-repositories-squash",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-core",
+          "version": {
+            "requires": "0.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-repositories-squash-metadata-0.1.4.jar",
+          "url": "kuick-repositories-squash-metadata-0.1.4.jar",
+          "size": 261,
+          "sha1": "7249fc43e702d1fa0fe27005738913c0fe67570f",
+          "md5": "2161db6c0e46f12311c7cd1a6780fae5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../kuick-redis/0.1.4/kuick-redis-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-redis",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kuick-redis-metadata-0.1.4.jar",
+          "url": "kuick-redis-metadata-0.1.4.jar",
+          "size": 261,
+          "sha1": "d8d755251ff51e3608239d5cff4374abee050e49",
+          "md5": "5b382933779f5e663ac5081227018ba"
+        }
+      ]
+    }
+  ]
+}

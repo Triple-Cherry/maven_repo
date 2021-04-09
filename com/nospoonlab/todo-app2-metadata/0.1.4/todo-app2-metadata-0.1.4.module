@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../todo-app2/0.1.4/todo-app2-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "todo-app2",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "todo-app2-metadata-0.1.4.jar",
+          "url": "todo-app2-metadata-0.1.4.jar",
+          "size": 261,
+          "sha1": "dd852fb202fff6d9bf8951b013274c5f3371a1ed",
+          "md5": "90e8093878a12b74e5f306ff545af0ce"
+        }
+      ]
+    }
+  ]
+}

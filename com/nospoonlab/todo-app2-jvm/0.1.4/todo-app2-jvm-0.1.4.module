@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../todo-app2/0.1.4/todo-app2-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "todo-app2",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.usage": "java-api-jars",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-core",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-api-rest",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-api-rpc",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-db",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "com.soywiz",
+          "module": "korte-ktor-jvm",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.soywiz",
+          "module": "korte-korio-jvm",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "todo-app2-jvm-0.1.4.jar",
+          "url": "todo-app2-jvm-0.1.4.jar",
+          "size": 52554,
+          "sha1": "19e7409ff7370eff7b197808bf63e7447c7875a6",
+          "md5": "c79cb2d82f94581737661937b563e7d0"
+        }
+      ]
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime-jars",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-core",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-api-rest",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-api-rpc",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-db",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "com.soywiz",
+          "module": "korte-ktor-jvm",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.soywiz",
+          "module": "korte-korio-jvm",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.40"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.3.40"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.40"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "todo-app2-jvm-0.1.4.jar",
+          "url": "todo-app2-jvm-0.1.4.jar",
+          "size": 52554,
+          "sha1": "19e7409ff7370eff7b197808bf63e7447c7875a6",
+          "md5": "c79cb2d82f94581737661937b563e7d0"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../todo-app2-metadata/0.1.4/todo-app2-metadata-0.1.4.module",
+        "group": "com.nospoonlab",
+        "module": "todo-app2-metadata",
+        "version": "0.1.4"
+      }
+    }
+  ]
+}

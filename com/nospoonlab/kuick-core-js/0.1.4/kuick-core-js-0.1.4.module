@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../kuick-core/0.1.4/kuick-core-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-core",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "js-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core-js",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core-common",
+          "version": {
+            "requires": "1.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-core-js-0.1.4.jar",
+          "url": "kuick-core-js-0.1.4.jar",
+          "size": 123090,
+          "sha1": "c8e076d25d9eb23d2b265e96e1f667073602188d",
+          "md5": "ebfd0424e2d920f1fe1f39bf9930c0d6"
+        }
+      ]
+    },
+    {
+      "name": "js-runtime",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core-js",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core-common",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.3.40"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.40"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-core-js-0.1.4.jar",
+          "url": "kuick-core-js-0.1.4.jar",
+          "size": 123090,
+          "sha1": "c8e076d25d9eb23d2b265e96e1f667073602188d",
+          "md5": "ebfd0424e2d920f1fe1f39bf9930c0d6"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kuick-core-metadata/0.1.4/kuick-core-metadata-0.1.4.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-core-metadata",
+        "version": "0.1.4"
+      }
+    }
+  ]
+}

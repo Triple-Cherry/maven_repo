@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../squash-h2/0.1.4/squash-h2-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "squash-h2",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "squash-h2-metadata-0.1.4.jar",
+          "url": "squash-h2-metadata-0.1.4.jar",
+          "size": 261,
+          "sha1": "e673d865b8e281eaab68a88b89b7f3fdcddc5491",
+          "md5": "ebd6457eaa30e21d8bfa9c3ee3b6bcb9"
+        }
+      ]
+    }
+  ]
+}

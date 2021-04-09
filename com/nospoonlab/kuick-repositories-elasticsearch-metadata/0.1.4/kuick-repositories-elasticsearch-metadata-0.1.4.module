@@ -1,0 +1,45 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../kuick-repositories-elasticsearch/0.1.4/kuick-repositories-elasticsearch-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-repositories-elasticsearch",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-core",
+          "version": {
+            "requires": "0.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-repositories-elasticsearch-metadata-0.1.4.jar",
+          "url": "kuick-repositories-elasticsearch-metadata-0.1.4.jar",
+          "size": 261,
+          "sha1": "690f08c71db78ad7f4ec576c7f8c07f14ea343eb",
+          "md5": "7896f5e9737517bf43d3a4a209d0c405"
+        }
+      ]
+    }
+  ]
+}

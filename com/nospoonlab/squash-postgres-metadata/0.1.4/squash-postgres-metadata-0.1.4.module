@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../squash-postgres/0.1.4/squash-postgres-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "squash-postgres",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "squash-postgres-metadata-0.1.4.jar",
+          "url": "squash-postgres-metadata-0.1.4.jar",
+          "size": 261,
+          "sha1": "3dd1e82e7aecf8a5330142d036f98f448bd511e2",
+          "md5": "6161c1b8a2c3f0fe4152e881cdc6004b"
+        }
+      ]
+    }
+  ]
+}

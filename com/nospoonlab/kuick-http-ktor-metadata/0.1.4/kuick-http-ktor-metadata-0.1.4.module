@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../kuick-http-ktor/0.1.4/kuick-http-ktor-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-http-ktor",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kuick-http-ktor-metadata-0.1.4.jar",
+          "url": "kuick-http-ktor-metadata-0.1.4.jar",
+          "size": 261,
+          "sha1": "a0d7fb8b94f574899b80dbd90631229069f6e6c8",
+          "md5": "13b2b7528bfddac11ebba387abaaa998"
+        }
+      ]
+    }
+  ]
+}

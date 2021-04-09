@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../squash-postgres/0.1.4/squash-postgres-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "squash-postgres",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.usage": "java-api-jars",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-core",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-jdbc",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-graph",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "squash-postgres-jvm-0.1.4.jar",
+          "url": "squash-postgres-jvm-0.1.4.jar",
+          "size": 14051,
+          "sha1": "b119099406d8d7ce4d040d7bbf7a3c4c52d05484",
+          "md5": "c1993c3ab70dbbe008dc2519d151a5bd"
+        }
+      ]
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime-jars",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-core",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-jdbc",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-graph",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.1.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.40"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.3.40"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.40"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "squash-postgres-jvm-0.1.4.jar",
+          "url": "squash-postgres-jvm-0.1.4.jar",
+          "size": 14051,
+          "sha1": "b119099406d8d7ce4d040d7bbf7a3c4c52d05484",
+          "md5": "c1993c3ab70dbbe008dc2519d151a5bd"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../squash-postgres-metadata/0.1.4/squash-postgres-metadata-0.1.4.module",
+        "group": "com.nospoonlab",
+        "module": "squash-postgres-metadata",
+        "version": "0.1.4"
+      }
+    }
+  ]
+}

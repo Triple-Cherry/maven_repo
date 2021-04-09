@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../kuick-api-rpc/0.1.4/kuick-api-rpc-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-api-rpc",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "js-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kuick-api-rpc-js-0.1.4.jar",
+          "url": "kuick-api-rpc-js-0.1.4.jar",
+          "size": 261,
+          "sha1": "65e9e9e8d07b311c02dc863fbf4293b6df32ea3f",
+          "md5": "3f3128282786dfe61599a58fa43fb768"
+        }
+      ]
+    },
+    {
+      "name": "js-runtime",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.3.40"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.40"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-api-rpc-js-0.1.4.jar",
+          "url": "kuick-api-rpc-js-0.1.4.jar",
+          "size": 261,
+          "sha1": "65e9e9e8d07b311c02dc863fbf4293b6df32ea3f",
+          "md5": "3f3128282786dfe61599a58fa43fb768"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kuick-api-rpc-metadata/0.1.4/kuick-api-rpc-metadata-0.1.4.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-api-rpc-metadata",
+        "version": "0.1.4"
+      }
+    }
+  ]
+}

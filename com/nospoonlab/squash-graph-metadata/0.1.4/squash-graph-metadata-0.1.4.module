@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../squash-graph/0.1.4/squash-graph-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "squash-graph",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "squash-graph-metadata-0.1.4.jar",
+          "url": "squash-graph-metadata-0.1.4.jar",
+          "size": 261,
+          "sha1": "85a67abe157068ca393a94ac676f8e33b4960255",
+          "md5": "d3a583a64514466fe60e5013f1670d92"
+        }
+      ]
+    }
+  ]
+}

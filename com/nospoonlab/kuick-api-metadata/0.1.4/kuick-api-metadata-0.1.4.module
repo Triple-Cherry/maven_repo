@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../kuick-api/0.1.4/kuick-api-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-api",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kuick-api-metadata-0.1.4.jar",
+          "url": "kuick-api-metadata-0.1.4.jar",
+          "size": 261,
+          "sha1": "fb0a0daa5454d242b1e78932a52dc8bb6e627a30",
+          "md5": "5f5f5d3ff4d55b5e937d1202bd786dee"
+        }
+      ]
+    }
+  ]
+}

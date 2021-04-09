@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../samples/0.1.4/samples-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "samples",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "samples-metadata-0.1.4.jar",
+          "url": "samples-metadata-0.1.4.jar",
+          "size": 261,
+          "sha1": "e19a52c377e496f05f11628bd857a8bcb46baf2b",
+          "md5": "5b1c6b50a71997833b454109c24c323c"
+        }
+      ]
+    }
+  ]
+}

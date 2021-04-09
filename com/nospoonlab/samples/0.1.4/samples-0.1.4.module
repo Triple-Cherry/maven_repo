@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "group": "com.nospoonlab",
+    "module": "samples",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.usage": "java-api-jars",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../samples-jvm/0.1.4/samples-jvm-0.1.4.module",
+        "group": "com.nospoonlab",
+        "module": "samples-jvm",
+        "version": "0.1.4"
+      }
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime-jars",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../samples-jvm/0.1.4/samples-jvm-0.1.4.module",
+        "group": "com.nospoonlab",
+        "module": "samples-jvm",
+        "version": "0.1.4"
+      }
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../samples-metadata/0.1.4/samples-metadata-0.1.4.module",
+        "group": "com.nospoonlab",
+        "module": "samples-metadata",
+        "version": "0.1.4"
+      }
+    }
+  ]
+}

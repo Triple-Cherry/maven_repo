@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../kuick-redis/0.1.4/kuick-redis-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-redis",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "js-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kuick-redis-js-0.1.4.jar",
+          "url": "kuick-redis-js-0.1.4.jar",
+          "size": 261,
+          "sha1": "54fdaf507a957c74497cea60d548f7d37177a6bc",
+          "md5": "b55f290ca0dda8a856f9cd04c7ba8104"
+        }
+      ]
+    },
+    {
+      "name": "js-runtime",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.3.40"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.40"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-redis-js-0.1.4.jar",
+          "url": "kuick-redis-js-0.1.4.jar",
+          "size": 261,
+          "sha1": "54fdaf507a957c74497cea60d548f7d37177a6bc",
+          "md5": "b55f290ca0dda8a856f9cd04c7ba8104"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kuick-redis-metadata/0.1.4/kuick-redis-metadata-0.1.4.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-redis-metadata",
+        "version": "0.1.4"
+      }
+    }
+  ]
+}

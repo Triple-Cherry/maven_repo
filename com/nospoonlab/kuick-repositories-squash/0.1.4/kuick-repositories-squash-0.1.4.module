@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "group": "com.nospoonlab",
+    "module": "kuick-repositories-squash",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "js-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kuick-repositories-squash-js/0.1.4/kuick-repositories-squash-js-0.1.4.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-repositories-squash-js",
+        "version": "0.1.4"
+      }
+    },
+    {
+      "name": "js-runtime",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kuick-repositories-squash-js/0.1.4/kuick-repositories-squash-js-0.1.4.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-repositories-squash-js",
+        "version": "0.1.4"
+      }
+    },
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.usage": "java-api-jars",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kuick-repositories-squash-jvm/0.1.4/kuick-repositories-squash-jvm-0.1.4.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-repositories-squash-jvm",
+        "version": "0.1.4"
+      }
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime-jars",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kuick-repositories-squash-jvm/0.1.4/kuick-repositories-squash-jvm-0.1.4.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-repositories-squash-jvm",
+        "version": "0.1.4"
+      }
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kuick-repositories-squash-metadata/0.1.4/kuick-repositories-squash-metadata-0.1.4.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-repositories-squash-metadata",
+        "version": "0.1.4"
+      }
+    }
+  ]
+}

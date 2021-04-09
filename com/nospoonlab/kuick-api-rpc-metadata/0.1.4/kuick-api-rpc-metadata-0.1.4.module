@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../kuick-api-rpc/0.1.4/kuick-api-rpc-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-api-rpc",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kuick-api-rpc-metadata-0.1.4.jar",
+          "url": "kuick-api-rpc-metadata-0.1.4.jar",
+          "size": 261,
+          "sha1": "5290078cb61b463dbe9812ee36585eb1cd9c351b",
+          "md5": "30ced14b866d19a1a5677974d822f6c3"
+        }
+      ]
+    }
+  ]
+}

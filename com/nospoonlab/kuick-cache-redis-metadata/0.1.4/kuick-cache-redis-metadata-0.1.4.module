@@ -1,0 +1,52 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../kuick-cache-redis/0.1.4/kuick-cache-redis-0.1.4.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-cache-redis",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4.1",
+      "buildId": "l6qbeazn4jftde4cgeinfmqdae"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-core",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-redis",
+          "version": {
+            "requires": "0.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-cache-redis-metadata-0.1.4.jar",
+          "url": "kuick-cache-redis-metadata-0.1.4.jar",
+          "size": 261,
+          "sha1": "6381b1d8afa00b8fff09dc5907636c8c6775f200",
+          "md5": "ea1d8d6bebbbe17ced5914bb7c6178b0"
+        }
+      ]
+    }
+  ]
+}
