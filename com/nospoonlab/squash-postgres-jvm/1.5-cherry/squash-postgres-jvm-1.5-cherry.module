@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../squash-postgres/1.5-cherry/squash-postgres-1.5-cherry.module",
+    "group": "com.nospoonlab",
+    "module": "squash-postgres",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "wiixmvtvwba57pyyzstelbgs2y"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-jdbc",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-graph",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "squash-postgres-jvm-1.5-cherry.jar",
+          "url": "squash-postgres-jvm-1.5-cherry.jar",
+          "size": 14126,
+          "sha512": "f0fd6d08789f5b26ba112e315be8dcae3643d8d47c2381fcc995b95edb820a8f960c4a00e4264a10e9a201e49633c37552431ec4f55b0c46449c13fb102d46b6",
+          "sha256": "fe05256315bcf6ce3d9388b2f5eb832c1c95e6f21d4e23e7b1872e85b90f9a18",
+          "sha1": "658d6454c0c811fb460639e5e0ab1e6cfcfc63ed",
+          "md5": "3d77a945c2a2b9c706da1a00609da724"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-jdbc",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-graph",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.1.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "squash-postgres-jvm-1.5-cherry.jar",
+          "url": "squash-postgres-jvm-1.5-cherry.jar",
+          "size": 14126,
+          "sha512": "f0fd6d08789f5b26ba112e315be8dcae3643d8d47c2381fcc995b95edb820a8f960c4a00e4264a10e9a201e49633c37552431ec4f55b0c46449c13fb102d46b6",
+          "sha256": "fe05256315bcf6ce3d9388b2f5eb832c1c95e6f21d4e23e7b1872e85b90f9a18",
+          "sha1": "658d6454c0c811fb460639e5e0ab1e6cfcfc63ed",
+          "md5": "3d77a945c2a2b9c706da1a00609da724"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../squash-postgres-metadata/1.5-cherry/squash-postgres-metadata-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "squash-postgres-metadata",
+        "version": "1.5-cherry"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kuick-api-rpc-jvm/1.5-cherry/kuick-api-rpc-jvm-1.5-cherry.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-api-rpc-jvm",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "adzl3kli3bawrod2glsws652fa"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-logging",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-api-rpc-metadata-1.5-cherry.jar",
+          "url": "kuick-api-rpc-metadata-1.5-cherry.jar",
+          "size": 1621,
+          "sha512": "d62109e93e5535d9a0fac055d562a73007a0325eefdfe7eb137819a2d2d333d5686c45b6d055aa3037c3f98d5b80191398da1e7f73040c17c5a28757010f732d",
+          "sha256": "9b6543d55c4e3b728e06402d0fc42987e36ec4f54ea285a48edabe11c45330df",
+          "sha1": "500ed0935131e0f0539842f576310baef7528c37",
+          "md5": "be2e70a74987c19f53d4da50d65a0132"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../squash-graph/1.5-cherry/squash-graph-1.5-cherry.module",
+    "group": "com.nospoonlab",
+    "module": "squash-graph",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "hslkw4aarjezvm4mhzp2er2pya"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "net.bytebuddy",
+          "module": "byte-buddy",
+          "version": {
+            "requires": "1.4.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "squash-graph-jvm-1.5-cherry.jar",
+          "url": "squash-graph-jvm-1.5-cherry.jar",
+          "size": 70381,
+          "sha512": "5e1d4d5bca0305727c6bf0e747e4ccc3ad97d66fdd2ee955b2454a5c8295b2d4c102a7b262a202c649524e83f93ba896ca6145577720859f8633bf652473de92",
+          "sha256": "cf67823399b241cab1d0a076e42cfd4263ca47a86ee87b71182d2aee5cfd09b2",
+          "sha1": "003a54eeff3577785bb6bc128a6067f2992df628",
+          "md5": "1bf7729305e04c02afda83a9a8b43ea6"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "net.bytebuddy",
+          "module": "byte-buddy",
+          "version": {
+            "requires": "1.4.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "squash-graph-jvm-1.5-cherry.jar",
+          "url": "squash-graph-jvm-1.5-cherry.jar",
+          "size": 70381,
+          "sha512": "5e1d4d5bca0305727c6bf0e747e4ccc3ad97d66fdd2ee955b2454a5c8295b2d4c102a7b262a202c649524e83f93ba896ca6145577720859f8633bf652473de92",
+          "sha256": "cf67823399b241cab1d0a076e42cfd4263ca47a86ee87b71182d2aee5cfd09b2",
+          "sha1": "003a54eeff3577785bb6bc128a6067f2992df628",
+          "md5": "1bf7729305e04c02afda83a9a8b43ea6"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../squash-graph-metadata/1.5-cherry/squash-graph-metadata-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "squash-graph-metadata",
+        "version": "1.5-cherry"
+      }
+    }
+  ]
+}

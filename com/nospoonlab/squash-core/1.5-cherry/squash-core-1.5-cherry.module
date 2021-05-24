@@ -1,0 +1,65 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nospoonlab",
+    "module": "squash-core",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "fmoejosqsjbnxpxrwhe63ezkva"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "squash-core-metadata-1.5-cherry.jar",
+          "url": "squash-core-1.5-cherry.jar",
+          "size": 261,
+          "sha512": "501ad1e0d1875de56d187d4ebab4bf9bdd3febe0ba826c7cfa50af4f53938252976c38e8ff30bec22dbdd8ade5f8228e117c826559eff0bc504d41798cd7dc38",
+          "sha256": "e0c139d4bfb2d817ae0a129a46d4876b2abf9bac73bdabbfd87da965e2a213df",
+          "sha1": "98242ffe4c37ff6ebd00d2847b040146097c9e77",
+          "md5": "bd0fbf5ebe3dd8e4a7d1bf63037551ce"
+        }
+      ]
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../squash-core-jvm/1.5-cherry/squash-core-jvm-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "squash-core-jvm",
+        "version": "1.5-cherry"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../squash-core-jvm/1.5-cherry/squash-core-jvm-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "squash-core-jvm",
+        "version": "1.5-cherry"
+      }
+    }
+  ]
+}

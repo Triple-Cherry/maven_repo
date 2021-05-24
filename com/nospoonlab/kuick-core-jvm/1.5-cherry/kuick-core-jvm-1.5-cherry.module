@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kuick-core/1.5-cherry/kuick-core-1.5-cherry.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-core",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "otjt3l7bnjal3orczjznf72aji"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.2.4"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-core-jvm-1.5-cherry.jar",
+          "url": "kuick-core-jvm-1.5-cherry.jar",
+          "size": 474906,
+          "sha512": "0cc25b1cfd01f3d00346587c19ace5b8beb57d2098a71ea26162e68e9694d33aba3c1770880943d4b9e3b34656596da386db6e92527985f8283da4d806d45a79",
+          "sha256": "131299cf561cc7729d9b9294fb2bdf4f63f4324ed6711393b11b74824c4172f3",
+          "sha1": "6d6848ff966e97c1141d25883807b31d8c353a20",
+          "md5": "66e24030f1020ebf45bb160239faa951"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.2.4"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-core-jvm-1.5-cherry.jar",
+          "url": "kuick-core-jvm-1.5-cherry.jar",
+          "size": 474906,
+          "sha512": "0cc25b1cfd01f3d00346587c19ace5b8beb57d2098a71ea26162e68e9694d33aba3c1770880943d4b9e3b34656596da386db6e92527985f8283da4d806d45a79",
+          "sha256": "131299cf561cc7729d9b9294fb2bdf4f63f4324ed6711393b11b74824c4172f3",
+          "sha1": "6d6848ff966e97c1141d25883807b31d8c353a20",
+          "md5": "66e24030f1020ebf45bb160239faa951"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kuick-core-metadata/1.5-cherry/kuick-core-metadata-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-core-metadata",
+        "version": "1.5-cherry"
+      }
+    }
+  ]
+}

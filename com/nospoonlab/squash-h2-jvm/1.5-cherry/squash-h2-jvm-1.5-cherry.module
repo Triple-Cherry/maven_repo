@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../squash-h2/1.5-cherry/squash-h2-1.5-cherry.module",
+    "group": "com.nospoonlab",
+    "module": "squash-h2",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "fd4edotdy5acrohu4tg5z4sfqm"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-graph",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-jdbc",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "com.h2database",
+          "module": "h2",
+          "version": {
+            "requires": "1.4.197"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "squash-h2-jvm-1.5-cherry.jar",
+          "url": "squash-h2-jvm-1.5-cherry.jar",
+          "size": 10884,
+          "sha512": "2d9660b5dbbd488da1c88a837ab57865c5a2e7e9aaaf6f3d37e085755d5662ffb47c117250d8f1382c0fd5dee1519458c706ffe20967a59cfa4a48ab339c9923",
+          "sha256": "6fd8414b1880a770d4975485e9e5478fb5801156a45dcae9f884f452c55eeba6",
+          "sha1": "eefa139c6d730c4de77b9badaacb6283d56a90a9",
+          "md5": "053cad1561b3279108dd01281f7d1507"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-graph",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-jdbc",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "com.h2database",
+          "module": "h2",
+          "version": {
+            "requires": "1.4.197"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "squash-h2-jvm-1.5-cherry.jar",
+          "url": "squash-h2-jvm-1.5-cherry.jar",
+          "size": 10884,
+          "sha512": "2d9660b5dbbd488da1c88a837ab57865c5a2e7e9aaaf6f3d37e085755d5662ffb47c117250d8f1382c0fd5dee1519458c706ffe20967a59cfa4a48ab339c9923",
+          "sha256": "6fd8414b1880a770d4975485e9e5478fb5801156a45dcae9f884f452c55eeba6",
+          "sha1": "eefa139c6d730c4de77b9badaacb6283d56a90a9",
+          "md5": "053cad1561b3279108dd01281f7d1507"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../squash-h2-metadata/1.5-cherry/squash-h2-metadata-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "squash-h2-metadata",
+        "version": "1.5-cherry"
+      }
+    }
+  ]
+}

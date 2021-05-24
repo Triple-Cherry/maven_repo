@@ -3,10 +3,12 @@
   <groupId>com.nospoonlab</groupId>
   <artifactId>squash-graph-jvm</artifactId>
   <versioning>
-    <release>0.1.4</release>
+    <latest>1.5-cherry</latest>
+    <release>1.5-cherry</release>
     <versions>
-      <version>0.1.4</version>
+      <version>0.3.0</version>
+      <version>1.5-cherry</version>
     </versions>
-    <lastUpdated>20210409074732</lastUpdated>
+    <lastUpdated>20210524091718</lastUpdated>
   </versioning>
 </metadata>

@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kuick-db/1.5-cherry/kuick-db-1.5-cherry.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-db",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "af5uyryhmvaufdxiv3tx5sfjwy"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kuick-db-js-1.5-cherry.jar",
+          "url": "kuick-db-js-1.5-cherry.jar",
+          "size": 261,
+          "sha512": "ff5a70420ef9b66447a6015648c0ca72d22943165584def26fc6da97d2d08e223148a7552701776d80ebf53ead6968d672adb345060fe06aa24d4e61ffd0d3f0",
+          "sha256": "a6f435ec5f8dab1e922c11976ce8e90b483fbf58e80c74d447d7bbc6d374e02f",
+          "sha1": "a36fd259ad4098d26f3ef7160f238cd6c365c816",
+          "md5": "fbfea926fc8d89e80002394d3bfb81bb"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-db-js-1.5-cherry.jar",
+          "url": "kuick-db-js-1.5-cherry.jar",
+          "size": 261,
+          "sha512": "ff5a70420ef9b66447a6015648c0ca72d22943165584def26fc6da97d2d08e223148a7552701776d80ebf53ead6968d672adb345060fe06aa24d4e61ffd0d3f0",
+          "sha256": "a6f435ec5f8dab1e922c11976ce8e90b483fbf58e80c74d447d7bbc6d374e02f",
+          "sha1": "a36fd259ad4098d26f3ef7160f238cd6c365c816",
+          "md5": "fbfea926fc8d89e80002394d3bfb81bb"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kuick-db-metadata/1.5-cherry/kuick-db-metadata-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-db-metadata",
+        "version": "1.5-cherry"
+      }
+    }
+  ]
+}

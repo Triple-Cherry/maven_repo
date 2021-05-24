@@ -3,10 +3,11 @@
   <groupId>com.nospoonlab</groupId>
   <artifactId>kuick-api-rpc-js</artifactId>
   <versioning>
-    <release>0.1.4</release>
+    <latest>1.5-cherry</latest>
+    <release>1.5-cherry</release>
     <versions>
-      <version>0.1.4</version>
+      <version>1.5-cherry</version>
     </versions>
-    <lastUpdated>20210409074729</lastUpdated>
+    <lastUpdated>20210524091547</lastUpdated>
   </versioning>
 </metadata>
