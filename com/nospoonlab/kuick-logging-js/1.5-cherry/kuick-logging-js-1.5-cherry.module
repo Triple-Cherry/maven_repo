@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kuick-logging/1.5-cherry/kuick-logging-1.5-cherry.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-logging",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "7d5yqdf2p5ccrnoaxcra5nglum"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kuick-logging-js-1.5-cherry.jar",
+          "url": "kuick-logging-js-1.5-cherry.jar",
+          "size": 50860,
+          "sha512": "0b3bb43fd997bea75b4139a55bffa271988e49e55e67a3cf0974ec084f4c01ad25f64ce5492361291a4f7c4a7a8afd1c6450af2ee82b4ecd195459ba32b12ea2",
+          "sha256": "2a8b54ee2b546ee8a7c9670e3c29defc991d6d064c7fb85288a846dda869a7ad",
+          "sha1": "cf0f768c9f2ad413ff69bd969dc5ee98f9cbd622",
+          "md5": "00db6d04fd46976a0b2887eb1bbb4faa"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-logging-js-1.5-cherry.jar",
+          "url": "kuick-logging-js-1.5-cherry.jar",
+          "size": 50860,
+          "sha512": "0b3bb43fd997bea75b4139a55bffa271988e49e55e67a3cf0974ec084f4c01ad25f64ce5492361291a4f7c4a7a8afd1c6450af2ee82b4ecd195459ba32b12ea2",
+          "sha256": "2a8b54ee2b546ee8a7c9670e3c29defc991d6d064c7fb85288a846dda869a7ad",
+          "sha1": "cf0f768c9f2ad413ff69bd969dc5ee98f9cbd622",
+          "md5": "00db6d04fd46976a0b2887eb1bbb4faa"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kuick-logging-metadata/1.5-cherry/kuick-logging-metadata-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-logging-metadata",
+        "version": "1.5-cherry"
+      }
+    }
+  ]
+}

@@ -3,10 +3,12 @@
   <groupId>com.nospoonlab</groupId>
   <artifactId>squash-core-metadata</artifactId>
   <versioning>
-    <release>0.1.4</release>
+    <latest>1.5-cherry</latest>
+    <release>1.5-cherry</release>
     <versions>
-      <version>0.1.4</version>
+      <version>0.3.0</version>
+      <version>1.5-cherry</version>
     </versions>
-    <lastUpdated>20210409074733</lastUpdated>
+    <lastUpdated>20210524091714</lastUpdated>
   </versioning>
 </metadata>

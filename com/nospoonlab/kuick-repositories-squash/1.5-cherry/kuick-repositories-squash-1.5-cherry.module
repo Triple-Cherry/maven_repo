@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nospoonlab",
+    "module": "kuick-repositories-squash",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "a7ay6n2dcfa4terawcucq4smmm"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-repositories-squash-metadata-1.5-cherry.jar",
+          "url": "kuick-repositories-squash-1.5-cherry.jar",
+          "size": 261,
+          "sha512": "de9d607506e810b3de3062abca5754b4426141dcc50a1313eb0f463be4335407c6eb9d21dd6ef9ba2e82937077535b3721acfbeedd4f009e0ccc10cc766875c8",
+          "sha256": "79b30f88928fd254fd3966eaf88d537e357504160ed8669b18ddadc5fa39a688",
+          "sha1": "68279704abf139de4fcf407442b508fad18c33c6",
+          "md5": "1ea23af9eb4b11baffc4e0d87526f115"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kuick-repositories-squash-js/1.5-cherry/kuick-repositories-squash-js-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-repositories-squash-js",
+        "version": "1.5-cherry"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kuick-repositories-squash-js/1.5-cherry/kuick-repositories-squash-js-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-repositories-squash-js",
+        "version": "1.5-cherry"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kuick-repositories-squash-jvm/1.5-cherry/kuick-repositories-squash-jvm-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-repositories-squash-jvm",
+        "version": "1.5-cherry"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kuick-repositories-squash-jvm/1.5-cherry/kuick-repositories-squash-jvm-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-repositories-squash-jvm",
+        "version": "1.5-cherry"
+      }
+    }
+  ]
+}

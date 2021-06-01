@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nospoonlab",
+    "module": "kuick-logging",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "7d5yqdf2p5ccrnoaxcra5nglum"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kuick-logging-metadata-1.5-cherry.jar",
+          "url": "kuick-logging-1.5-cherry.jar",
+          "size": 2661,
+          "sha512": "4f6dce2fa6e700c25069a56c2008980e495cf642fcc3699a0f9ba0e9ad32e4762c3c01550bd4d148342231e2e5cd7b568c59c3c782c69d68681af6dc6ce942e5",
+          "sha256": "9b99556bfc420fa10a1686db785464a8a1b45918e0b47bc9abf5d3e40dec68e0",
+          "sha1": "9e2f3679c3831ca5d8e0f94535dc6e811e9a961e",
+          "md5": "ca12188a28f0ba3a727d13bf132b7f63"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kuick-logging-js/1.5-cherry/kuick-logging-js-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-logging-js",
+        "version": "1.5-cherry"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kuick-logging-js/1.5-cherry/kuick-logging-js-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-logging-js",
+        "version": "1.5-cherry"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kuick-logging-jvm/1.5-cherry/kuick-logging-jvm-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-logging-jvm",
+        "version": "1.5-cherry"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kuick-logging-jvm/1.5-cherry/kuick-logging-jvm-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-logging-jvm",
+        "version": "1.5-cherry"
+      }
+    }
+  ]
+}

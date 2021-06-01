@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kuick-db/1.5-cherry/kuick-db-1.5-cherry.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-db",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "af5uyryhmvaufdxiv3tx5sfjwy"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-lang-kotlin-coroutines",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.reactiverse",
+          "module": "reactive-pg-client",
+          "version": {
+            "requires": "0.11.2"
+          }
+        },
+        {
+          "group": "com.h2database",
+          "module": "h2",
+          "version": {
+            "requires": "1.4.197"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-db-jvm-1.5-cherry.jar",
+          "url": "kuick-db-jvm-1.5-cherry.jar",
+          "size": 172919,
+          "sha512": "04188b8157f0cd4420c348d1467f845a699e7a420b827d623f8face1fa16ea46c51290d580a7bf9d9242bea15fc1ffdbfc107d911e543f2c44e600bce77c00db",
+          "sha256": "79179fa4cf4fd014d46921cc0bbd0929253e85357422ae2732ef1c798ecd410f",
+          "sha1": "2a4e221b808421f0bb40f665bcd8c121fbe9c74d",
+          "md5": "dc7508f55b678a5299c4997cc6a9bf41"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-lang-kotlin-coroutines",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.reactiverse",
+          "module": "reactive-pg-client",
+          "version": {
+            "requires": "0.11.2"
+          }
+        },
+        {
+          "group": "com.h2database",
+          "module": "h2",
+          "version": {
+            "requires": "1.4.197"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.1.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-db-jvm-1.5-cherry.jar",
+          "url": "kuick-db-jvm-1.5-cherry.jar",
+          "size": 172919,
+          "sha512": "04188b8157f0cd4420c348d1467f845a699e7a420b827d623f8face1fa16ea46c51290d580a7bf9d9242bea15fc1ffdbfc107d911e543f2c44e600bce77c00db",
+          "sha256": "79179fa4cf4fd014d46921cc0bbd0929253e85357422ae2732ef1c798ecd410f",
+          "sha1": "2a4e221b808421f0bb40f665bcd8c121fbe9c74d",
+          "md5": "dc7508f55b678a5299c4997cc6a9bf41"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kuick-db-metadata/1.5-cherry/kuick-db-metadata-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-db-metadata",
+        "version": "1.5-cherry"
+      }
+    }
+  ]
+}
