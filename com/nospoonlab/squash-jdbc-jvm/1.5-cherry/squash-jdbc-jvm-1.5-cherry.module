@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../squash-jdbc/1.5-cherry/squash-jdbc-1.5-cherry.module",
+    "group": "com.nospoonlab",
+    "module": "squash-jdbc",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "otwtcbzbbre3bk53nsnsem2fqu"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "squash-jdbc-jvm-1.5-cherry.jar",
+          "url": "squash-jdbc-jvm-1.5-cherry.jar",
+          "size": 36959,
+          "sha512": "5553e1f8053619aebbed17d057f02b1176348ef17bb7dda6b3d55a0facae98564e2109b7692282297f7a14255b816a7ee6389791095af32c194b3fc40d280959",
+          "sha256": "8cb3a9b43b2fd0c3e2edb29dbab52a5b54df5230174645e87b967db8ccf809d8",
+          "sha1": "857ba81f8838eab8905ef7283c173546721daf66",
+          "md5": "49d61cbdff72a710c88daecef41c7694"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "squash-jdbc-jvm-1.5-cherry.jar",
+          "url": "squash-jdbc-jvm-1.5-cherry.jar",
+          "size": 36959,
+          "sha512": "5553e1f8053619aebbed17d057f02b1176348ef17bb7dda6b3d55a0facae98564e2109b7692282297f7a14255b816a7ee6389791095af32c194b3fc40d280959",
+          "sha256": "8cb3a9b43b2fd0c3e2edb29dbab52a5b54df5230174645e87b967db8ccf809d8",
+          "sha1": "857ba81f8838eab8905ef7283c173546721daf66",
+          "md5": "49d61cbdff72a710c88daecef41c7694"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../squash-jdbc-metadata/1.5-cherry/squash-jdbc-metadata-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "squash-jdbc-metadata",
+        "version": "1.5-cherry"
+      }
+    }
+  ]
+}

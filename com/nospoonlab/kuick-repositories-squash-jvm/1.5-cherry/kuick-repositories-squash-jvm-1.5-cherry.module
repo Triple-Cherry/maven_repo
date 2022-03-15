@@ -1,0 +1,187 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kuick-repositories-squash/1.5-cherry/kuick-repositories-squash-1.5-cherry.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-repositories-squash",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "a7ay6n2dcfa4terawcucq4smmm"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "23.5-jre"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-h2",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-postgres",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-repositories-squash-jvm-1.5-cherry.jar",
+          "url": "kuick-repositories-squash-jvm-1.5-cherry.jar",
+          "size": 213213,
+          "sha512": "a7c9a89f3be447dc7b4d10e709491bc6e7723a69ea50073f44f6d0cc2cb0b93a8523b9698b54678948556b9ce0a53fd1c91dd53eb76373633949ad5383ca499c",
+          "sha256": "5a4bc8a131b5af8ddaab601134f8885f368678ee813fe1df61fb246eacdc9f98",
+          "sha1": "ae8b274609af462bbea3b891b7a461edeccd141e",
+          "md5": "f3027e578e894d2749d70bd5e60d58e0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "23.5-jre"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-h2",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "squash-postgres",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-repositories-squash-jvm-1.5-cherry.jar",
+          "url": "kuick-repositories-squash-jvm-1.5-cherry.jar",
+          "size": 213213,
+          "sha512": "a7c9a89f3be447dc7b4d10e709491bc6e7723a69ea50073f44f6d0cc2cb0b93a8523b9698b54678948556b9ce0a53fd1c91dd53eb76373633949ad5383ca499c",
+          "sha256": "5a4bc8a131b5af8ddaab601134f8885f368678ee813fe1df61fb246eacdc9f98",
+          "sha1": "ae8b274609af462bbea3b891b7a461edeccd141e",
+          "md5": "f3027e578e894d2749d70bd5e60d58e0"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kuick-repositories-squash-metadata/1.5-cherry/kuick-repositories-squash-metadata-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-repositories-squash-metadata",
+        "version": "1.5-cherry"
+      }
+    }
+  ]
+}

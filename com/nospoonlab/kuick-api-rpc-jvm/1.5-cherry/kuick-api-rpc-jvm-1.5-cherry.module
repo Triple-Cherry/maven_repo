@@ -1,0 +1,208 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kuick-api-rpc/1.5-cherry/kuick-api-rpc-1.5-cherry.module",
+    "group": "com.nospoonlab",
+    "module": "kuick-api-rpc",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "adzl3kli3bawrod2glsws652fa"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cio",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-apache",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-gson",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-logging",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-api-rpc-jvm-1.5-cherry.jar",
+          "url": "kuick-api-rpc-jvm-1.5-cherry.jar",
+          "size": 53300,
+          "sha512": "783e06205e3ad22fd8afce68b240723fdfb71b207754bedab090b160ceba2fafb4e69b41289180162376a31da31673c11d1321aa8093c567116e449730863b82",
+          "sha256": "e913949f3b87825c5a692cc5818afbfa55a71148ac191820147efcd220d0ac6d",
+          "sha1": "1403f1b02dcbcea50382763aa8bfd3d42f0f5983",
+          "md5": "18b272bf012ab52324aaced22b3e7801"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cio",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-apache",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-gson",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-core",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "com.nospoonlab",
+          "module": "kuick-logging",
+          "version": {
+            "requires": "1.5-cherry"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-api-rpc-jvm-1.5-cherry.jar",
+          "url": "kuick-api-rpc-jvm-1.5-cherry.jar",
+          "size": 53300,
+          "sha512": "783e06205e3ad22fd8afce68b240723fdfb71b207754bedab090b160ceba2fafb4e69b41289180162376a31da31673c11d1321aa8093c567116e449730863b82",
+          "sha256": "e913949f3b87825c5a692cc5818afbfa55a71148ac191820147efcd220d0ac6d",
+          "sha1": "1403f1b02dcbcea50382763aa8bfd3d42f0f5983",
+          "md5": "18b272bf012ab52324aaced22b3e7801"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kuick-api-rpc-metadata/1.5-cherry/kuick-api-rpc-metadata-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-api-rpc-metadata",
+        "version": "1.5-cherry"
+      }
+    }
+  ]
+}

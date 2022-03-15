@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nospoonlab",
+    "module": "kuick-db",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "af5uyryhmvaufdxiv3tx5sfjwy"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kuick-db-metadata-1.5-cherry.jar",
+          "url": "kuick-db-1.5-cherry.jar",
+          "size": 261,
+          "sha512": "f1bf2151c47ef81dda3e83b008f77cf903ffd023a599a4046bae987c905153f1d835a1b4aa9f85e297d954c31c245eb4155b665bb6d07e31810051c47c28d5cc",
+          "sha256": "6702f3ec97c853002d5d88d3910f33b9b5ab0160d45f27d793175074e0a24ede",
+          "sha1": "b2c44dbd71ac316d094eb92d14c5365f724b7f58",
+          "md5": "b6d91119dffca85fb00115b1bfaef431"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kuick-db-js/1.5-cherry/kuick-db-js-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-db-js",
+        "version": "1.5-cherry"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kuick-db-js/1.5-cherry/kuick-db-js-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-db-js",
+        "version": "1.5-cherry"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kuick-db-jvm/1.5-cherry/kuick-db-jvm-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-db-jvm",
+        "version": "1.5-cherry"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kuick-db-jvm/1.5-cherry/kuick-db-jvm-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-db-jvm",
+        "version": "1.5-cherry"
+      }
+    }
+  ]
+}

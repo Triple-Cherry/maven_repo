@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nospoonlab",
+    "module": "kuick-core",
+    "version": "1.5-cherry",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "otjt3l7bnjal3orczjznf72aji"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kuick-core-metadata-1.5-cherry.jar",
+          "url": "kuick-core-1.5-cherry.jar",
+          "size": 51257,
+          "sha512": "76c9a3e2af77c24b46b2181af52f613a1f444e3e4c4e173ae9a32a4d861c418e5dcc9e226d261b990c569d9ff2bb05ee480eedd1b7e70c105632686d497e5e42",
+          "sha256": "da7c836b89633ce4ba44aec1ae9cb5796d8a20054b8187a76dc9592ae747024c",
+          "sha1": "5317a52d5fa4ab3b6368355774ad156428fee15b",
+          "md5": "c9f2e97326c771e628e9589e4dcd30b0"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kuick-core-js/1.5-cherry/kuick-core-js-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-core-js",
+        "version": "1.5-cherry"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kuick-core-js/1.5-cherry/kuick-core-js-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-core-js",
+        "version": "1.5-cherry"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kuick-core-jvm/1.5-cherry/kuick-core-jvm-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-core-jvm",
+        "version": "1.5-cherry"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kuick-core-jvm/1.5-cherry/kuick-core-jvm-1.5-cherry.module",
+        "group": "com.nospoonlab",
+        "module": "kuick-core-jvm",
+        "version": "1.5-cherry"
+      }
+    }
+  ]
+}
