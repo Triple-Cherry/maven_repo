@@ -8,6 +8,6 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.triplecherry</groupId>
-  <artifactId>triplecherryrandom</artifactId>
-  <version>3.0</version>
+  <artifactId>triplecherryrandom-v3</artifactId>
+  <version>1.0</version>
 </project>
